@@ -1,22 +1,32 @@
 
 #include<iostream>
 #include<cstdlib>
-#include "DiceRoll.h"
 
 class DiceRoll
 {
 public:
-	DiceRoll();
-	~DiceRoll();
-
+	  DiceRoll();
+	 ~DiceRoll();
+	  int Roll();
+	  float average(DiceRoll, int);
+	  float average(int[], int);
 private:
 
 };
 
-DiceRoll::DiceRoll()
+int DiceRoll::Roll()
 {
+
+
 }
 
-DiceRoll::~DiceRoll()
+float DiceRoll::average(DiceRoll, int)
 {
-} 
+
+
+}
+float DiceRoll::average(int[], int)
+{
+
+
+}

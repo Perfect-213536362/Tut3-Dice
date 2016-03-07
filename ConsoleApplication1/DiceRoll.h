@@ -1,6 +1,6 @@
-#pragma once
-#ifndef DiceRoll.H
-#define DiceRoll.H
+
+//#ifndef DiceRoll.H
+//#define DiceRoll.H
 
 
 class DiceRoll
@@ -8,6 +8,12 @@ class DiceRoll
 public:
 	DiceRoll();
 	~DiceRoll();
-};
+	int Roll();
+	float average(DiceRoll, int);
+	float average(int[], int);
 
-#endif
+	int DiceRoll::Roll();
+	float DiceRoll::average();
+	float DiceRoll::average();
+};
+//#endif
