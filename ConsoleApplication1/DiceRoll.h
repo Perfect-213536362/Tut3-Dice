@@ -1,6 +1,6 @@
 
-//#ifndef DiceRoll.H
-//#define DiceRoll.H
+#ifndef DICEROLL.H
+#define DICEROLL.H
 
 
 class DiceRoll
@@ -11,9 +11,8 @@ public:
 	int Roll();
 	float average(DiceRoll, int);
 	float average(int[], int);
-
-	int DiceRoll::Roll();
-	float DiceRoll::average();
-	float DiceRoll::average();
 };
-//#endif
+  //int DiceRoll::Roll();
+  //float DiceRoll::average();
+//	float DiceRoll::average();
+#endif
